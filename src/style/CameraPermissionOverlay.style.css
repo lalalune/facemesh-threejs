@@ -1,0 +1,41 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  text-align: center;
+  position: fixed;
+  z-index: 10000;
+  text-align: center;
+}
+
+
+.overlay .header h1, .tos h2, .tos p {
+  margin-top:2em;
+  text-transform:lowercase;
+
+}
+
+.overlay .logo {
+  margin-top:1.5em;
+  margin-right:1em;
+}
+
+.overlay .logo h1 {
+  font-size: 5em;
+
+}
+
+.overlay .initCamera {
+
+  text-transform:lowercase;
+  margin-top:2em;
+  padding:.5em;
+  background-color: none;
+  background: none;
+  box-shadow: none;
+  border: 1px #000 solid;
+  font-size: 2em;
+  font-weight:300;
+}

@@ -1,0 +1,18 @@
+
+.cameraButton {
+  position: absolute;
+  width: 6em;
+  height: 6em;
+  bottom: 5em;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.459);
+  border-radius: 3em;
+}
+
+.cameraButton img {
+  width: 100%;
+  opacity: .5;
+  padding: 1.25em;
+}

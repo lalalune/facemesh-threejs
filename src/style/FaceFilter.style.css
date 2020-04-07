@@ -1,0 +1,51 @@
+.Dropdown-control {
+  position:relative;
+  right:.5em;
+}
+#facemesh-video {
+  display: none;
+
+}
+
+#threejsContainer canvas {
+  min-height: 100vh;
+  min-width: 100vw;
+  object-fit: cover;
+}
+
+#progress-bar[value] {
+  position: fixed;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 40%;
+  text-align: center;
+  width: 30%;
+  height: 2em;
+  -webkit-appearance: none;
+}
+
+.videosource {
+  display: none;
+}
+
+.loadingMessage{
+  position: fixed;
+  width: 6em;
+  height: 2.5em;
+  margin: auto;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  bottom: 15%;
+  padding: .75em;
+  border-radius: 1.5em;
+  opacity: 80%;
+  background: rgba(255, 255, 255, 0.39);
+  font-size: 1em;
+  text-align: center;
+}
+
+.loadingMessage p {
+padding:0em;
+margin:0em;
+}

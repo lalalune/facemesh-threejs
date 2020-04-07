@@ -1,0 +1,103 @@
+.sharingModal {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: .25em;
+  background-color: #eeeeee;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  z-index: 10000;
+  text-align: center;
+  overflow: scroll;
+}
+
+.sharingModal h1 {
+  font-size: 2em;
+  margin-top:2em;
+  margin-bottom:1em;
+  font-weight:300;
+}
+
+.sharingModal .closeSharingModal {
+  position:absolute;
+  top:.5em;
+  left:.5em;
+  margin:auto;
+  padding:.5em;
+  background-color: none;
+  background: none;
+  box-shadow: none;
+  font-weight:300;
+  font-size: 1.5em;
+  border: 0;
+  color:#333333;
+
+}
+
+.shareMessagingWrapper {
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+  font-size:1.25em;
+  font-weight:500;
+
+}
+
+.shareForm .group {
+  padding: .25em;
+}
+
+.shareForm .group input {
+  margin: 0 .25em;
+}
+
+.sharingModal .closeSharingModal:hover {
+  cursor: pointer;
+}
+
+li.button-share img {
+  width: 3em;
+  height: 3em;
+  margin-left:.5em;
+  margin-right:.5em;
+}
+
+li.button-share img:active {
+  width: 3em;
+  height: 3em;
+  margin-left:.5em;
+  margin-right:.5em;
+  opacity:.5;
+}
+
+
+.shareButtons ul {
+  padding-inline-start: 0;
+}
+
+.shareButtons li {
+  display: inline;
+  padding: 0 .25em;
+}
+
+.shareButtons li:hover {
+  cursor: pointer;
+}
+
+.photoWrapper .photo {
+  display: inline-block;
+  width: 80vw;
+  height: 80vw;
+  margin: 0 0;
+  padding: .5em .5em .5em .5em;
+
+  border: rgb(143, 143, 143) solid 1px;
+}
+
+.photoWrapper .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding:0;
+  margin:0;
+}
